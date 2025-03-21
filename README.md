@@ -1,89 +1,69 @@
 Lazer - Discord DM Removal Tool
 
-Lazer is an open-source Python tool designed to remove direct messages (DMs) on Discord efficiently. Built with a PyQt6 interface, it provides an easy way to bulk-delete messages.
+Lazer is an open-source Python tool designed to quickly and efficiently delete direct messages (DMs) on Discord. With a simple PyQt6 interface, it streamlines bulk message removal.
 
-Features:
+Features
 
-Bulk delete DMs on Discord
-
-Simple and user-friendly GUI
-
-Uses Discord API requests for message deletion
-
+✅ Bulk delete DMs on Discord✅ Simple, user-friendly GUI✅ Uses Discord API for efficient message deletion
 
 Installation
 
-Requirements:
+Requirements
 
-Ensure you have Python installed. Then, install the required dependencies:
+Ensure Python is installed, then install dependencies:
 
 pip install -r requirements.txt
 
-
 Dependencies
 
-Lazer requires the following Python libraries:
+Lazer requires:
 
 pip install PyQt6 requests
 
-
 Usage
 
-Run the tool with:
+Run the tool:
 
 python lazer.py
 
-Enter your Discord token and the channel ID of the DM you want to clean.
+Enter your Discord Token and Channel ID.
 
-Start the deletion process and let the tool handle the rest.
+Start the deletion process and let Lazer handle the rest.
 
+Getting Your Discord Token
 
-Getting Your Discord Token:
-
-
-Method: Using Network Requests
+Method: Network Requests
 
 Open Discord in your browser.
 
-Press Ctrl + Shift + I (Windows/Linux) or Cmd + Option + I (Mac) to open Developer Tools.
+Open Developer Tools (Ctrl + Shift + I or Cmd + Option + I).
 
-Navigate to the Network tab.
+Go to the Network tab and search messages.
 
-In the search bar, type messages.
+Send a message in any DM.
 
-Send a message in any DM or server.
+Click a messages request, open the Headers tab.
 
-Click on any messages request, go to the Headers tab.
+Find the authorization header—this is your token.
 
-Scroll down to find the authorization header—this is your token.
+⚠ Never share your token—it grants full account access!
 
-⚠ Warning: Never share your token, as it grants full access to your account.
+Getting a DM Channel ID
 
+Method: Developer Mode
 
+Open Discord > User Settings.
 
-Getting a DM Channel ID:
+Go to Advanced and enable Developer Mode.
 
+Right-click the DM in the sidebar.
 
-Method: Enable Developer Mode & Copy Channel ID
-
-Open Discord and go to User Settings.
-
-Scroll down to Advanced and enable Developer Mode.
-
-Go to the DM you want to delete messages from.
-
-Right-click the conversation in the left sidebar.
-
-Click Copy Channel ID.
-
-
+Select Copy Channel ID.
 
 License
 
-This project is open-source under the MIT License.
-
-
+📝 Open-source under the MIT License.
 
 Contributions
 
-Feel free to contribute by submitting pull requests or reporting issues!
+💡 Feel free to submit pull requests or report issues!
