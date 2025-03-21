@@ -129,7 +129,7 @@ class DeletionWorker(QThread):
 class LoginWindow(QDialog):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Login - Discord Tool")
+        self.setWindowTitle("Login - Lazer")
         self.setFixedSize(350, 150)
         self.set_background_image()
 
@@ -265,7 +265,7 @@ class MainWindow(QWidget):
         self.setup_ui()
 
     def setup_ui(self):
-        self.setWindowTitle("Discord Tool - Progress")
+        self.setWindowTitle("Lazer")
         self.setFixedSize(550, 200)
         self.set_background_image()
 
