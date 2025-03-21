@@ -4,7 +4,9 @@ Lazer is an open-source Python tool designed to quickly and efficiently delete d
 
 Features
 
-✅ Bulk delete DMs on Discord✅ Simple, user-friendly GUI✅ Uses Discord API for efficient message deletion
+✅ Bulk delete DMs on Discord
+✅ Simple, user-friendly GUI
+✅ Uses Discord API for efficient message deletion
 
 Installation
 
