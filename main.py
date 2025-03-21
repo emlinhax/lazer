@@ -219,9 +219,10 @@ class LoginWindow(QDialog):
         <ol>
             <li>Open Discord in your browser</li>
             <li>Press <kbd>Ctrl+Shift+I</kbd></li>
-            <li>Go to: Application → Local Storage → https://discord.com</li>
-            <li>Search for 'token' in the key list</li>
-            <li>Double-click to copy the value</li>
+            <li>Go to the network tab and search for messages</li>
+            <li>Send a message in any DM.</li>
+            <li>Click a messages request, open the Headers tab</li>
+            <li>Find the authorization header—this is your token</li>
         </ol>"""
         
         msg = QMessageBox()
