@@ -12,7 +12,7 @@ Uses Discord API requests for message deletion
 
 Installation
 
-Requirements
+Requirements:
 
 Ensure you have Python installed. Then, install the required dependencies:
 
@@ -34,7 +34,9 @@ Enter your Discord token and the channel ID of the DM you want to clean.
 
 Start the deletion process and let the tool handle the rest.
 
-Getting Your Discord Token
+
+Getting Your Discord Token:
+
 
 Method: Using Network Requests
 
@@ -54,7 +56,10 @@ Scroll down to find the authorization header—this is your token.
 
 ⚠ Warning: Never share your token, as it grants full access to your account.
 
-Getting a DM Channel ID
+
+
+Getting a DM Channel ID:
+
 
 Method: Enable Developer Mode & Copy Channel ID
 
@@ -68,9 +73,13 @@ Right-click the conversation in the left sidebar.
 
 Click Copy Channel ID.
 
+
+
 License
 
 This project is open-source under the MIT License.
+
+
 
 Contributions
 
