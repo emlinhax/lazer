@@ -2,13 +2,14 @@ Lazer - Discord DM Removal Tool
 
 Lazer is an open-source Python tool designed to remove direct messages (DMs) on Discord efficiently. Built with a PyQt6 interface, it provides an easy way to bulk-delete messages.
 
-Features
+Features:
 
 Bulk delete DMs on Discord
 
 Simple and user-friendly GUI
 
 Uses Discord API requests for message deletion
+
 
 Installation
 
@@ -18,11 +19,13 @@ Ensure you have Python installed. Then, install the required dependencies:
 
 pip install -r requirements.txt
 
+
 Dependencies
 
 Lazer requires the following Python libraries:
 
 pip install PyQt6 requests
+
 
 Usage
 
