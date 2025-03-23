@@ -56,5 +56,4 @@ Right-click the target DM → "Copy Channel ID"
 3. Commit changes: git commit -m "Add your feature"  
 4. Push: git push origin feature/your-feature  
 5. Open a Pull Request  
-📜 License: MIT License - See LICENSE
-🛑 Disclaimer: Not affiliated with Discord Inc.
+📜 License: MIT License 
