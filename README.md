@@ -33,6 +33,7 @@ Channel ID (listed below 🆔)
 Start cleaning
 
 🔑 Get Discord Token
+
 Open Discord Web → Press F12 for Developer Tools
 
 Go to Network tab → Send a DM message
@@ -42,6 +43,7 @@ Find messages request → Copy authorization header
 ⚠️ WARNING: This token grants full account access! Never share it.
 
 🆔 Get Channel ID
+
 Enable Developer Mode:
 User Settings → Advanced → Developer Mode
 
