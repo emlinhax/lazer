@@ -14,11 +14,11 @@ A PyQt6-powered tool for bulk deleting Discord DMs
 🪟 Cross-platform support
 
 ⚙️ Installation
-bash
-Copy
+
 git clone https://github.com/keke2di/lazer.git  
 cd lazer  
 pip install -r requirements.txt  
+
 🚀 Usage
 Launch the application:
 
