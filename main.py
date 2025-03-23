@@ -267,7 +267,7 @@ class MainWindow(QWidget):
 
     def setup_ui(self):
         self.setWindowTitle("Lazer")
-        self.setFixedSize(550, 200)
+        self.setFixedSize(500, 200)
         self.set_background_image()
 
         layout = QVBoxLayout()
@@ -293,7 +293,7 @@ class MainWindow(QWidget):
         # Channel Input
         self.channel_input = QLineEdit()
         self.channel_input.setPlaceholderText("Enter Channel ID")
-        self.channel_input.setStyleSheet("background-color: transparent; border: 1px solid rgba(255, 255, 255, 0.5);")
+        self.channel_input.setStyleSheet("background-color: transparent; border: 1px solid rgba(255, 255, 255, 0.3);")
         self.channel_input.setAlignment(Qt.AlignmentFlag.AlignCenter)
 
         # Action Buttons
@@ -309,18 +309,18 @@ class MainWindow(QWidget):
         self.back_btn = QPushButton("Back to Login")
         self.back_btn.setFixedSize(140, 40)
         self.back_btn.setStyleSheet("""
-            background-color: rgba(255, 75, 75, 0.3);
+            background-color: rgba(255, 255, 255, 0.3);
             border-radius: 10px; 
             padding: 8px;
             font-size: 14px;
         """)
         self.back_btn.clicked.connect(self.confirm_logout)
 
-        # Button Layout
+        # Button Layout - Swapped positions
         button_layout = QHBoxLayout()
         button_layout.addStretch()
-        button_layout.addWidget(self.submit_btn)
         button_layout.addWidget(self.back_btn)
+        button_layout.addWidget(self.submit_btn)
         button_layout.addStretch()
         button_layout.setContentsMargins(0, 15, 0, 15)
 
@@ -355,7 +355,7 @@ class MainWindow(QWidget):
             QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No
         )
         if confirm == QMessageBox.StandardButton.Yes:
-            self.close()
+            self.hide()
             login_window = LoginWindow()
             if login_window.exec() == QDialog.DialogCode.Accepted:
                 new_main = MainWindow(login_window.get_token())
