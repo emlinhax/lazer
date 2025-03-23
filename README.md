@@ -22,9 +22,8 @@ pip install -r requirements.txt
 🚀 Usage
 Launch the application:
 
-bash
-Copy
 python lazer.py  
+
 Input:
 
 Discord Token (listed below 🔑)
@@ -49,8 +48,7 @@ User Settings → Advanced → Developer Mode
 Right-click the target DM → "Copy Channel ID"
 
 🤝 Contributing
-bash
-Copy
+
 1. Fork the repository  
 2. Create a branch: git checkout -b feature/your-feature  
 3. Commit changes: git commit -m "Add your feature"  
