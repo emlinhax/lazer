@@ -220,7 +220,7 @@ class LoginWindow(QDialog):
             <li>Open Discord in your browser</li>
             <li>Press <kbd>Ctrl+Shift+I</kbd></li>
             <li>Go to the network tab and search for messages</li>
-            <li>Send a message in any DM.</li>
+            <li>Send a message in any DM</li>
             <li>Click a messages request, open the Headers tab</li>
             <li>Find the authorization header—this is your token</li>
         </ol>"""
