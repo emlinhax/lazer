@@ -1,71 +1,60 @@
-Lazer - Discord DM Removal Tool
+Lazer - Discord DM Cleaner 🚀
+  
+A PyQt6-powered tool for bulk deleting Discord DMs
+  
+✨ Features  
+  
+⚡ One-click bulk deletion
+  
+🖥️ Intuitive graphical interface
+  
+🔄 Discord API integration
+  
+🔐 Local session storage
+  
+🪟 Cross-platform support
 
-Lazer is an open-source Python tool designed to quickly and efficiently delete direct messages (DMs) on Discord. With a simple PyQt6 interface, it streamlines bulk message removal.
+⚙️ Installation
 
-Features
+git clone https://github.com/keke2di/lazer.git  
+cd lazer  
+pip install -r requirements.txt  
 
-✅ Bulk delete DMs on Discord
-✅ Simple, user-friendly GUI
-✅ Uses Discord API for efficient message deletion
+🚀 Usage
+Launch the application:
 
-Installation
+python lazer.py  
 
-Requirements
+Input:
 
-Ensure Python is installed, then install dependencies:
+Discord Token (listed below 🔑)
+  
+Channel ID (listed below 🆔)
+  
+Start cleaning
+  
+🔑 Get Discord Token
+  
+Open Discord Web → Press F12 for Developer Tools
 
-pip install -r requirements.txt
+Go to Network tab → Send a DM message
 
-Dependencies
+Find messages request → Copy authorization header
 
-Lazer requires:
+⚠️ WARNING: This token grants full account access! Never share it.
+  
+🆔 Get Channel ID 
+  
+Enable Developer Mode:
+User Settings → Advanced → Developer Mode
 
-pip install PyQt6 requests
+Right-click the target DM → "Copy Channel ID"
 
-Usage
+🤝 Contributing
 
-Run the tool:
-
-python lazer.py
-
-Enter your Discord Token and Channel ID.
-
-Start the deletion process and let Lazer handle the rest.
-
-Getting Your Discord Token
-
-Method: Network Requests
-
-Open Discord in your browser.
-
-Open Developer Tools (Ctrl + Shift + I or Cmd + Option + I).
-
-Go to the Network tab and search messages.
-
-Send a message in any DM.
-
-Click a messages request, open the Headers tab.
-
-Find the authorization header—this is your token.
-
-⚠ Never share your token—it grants full account access!
-
-Getting a DM Channel ID
-
-Method: Developer Mode
-
-Open Discord > User Settings.
-
-Go to Advanced and enable Developer Mode.
-
-Right-click the DM in the sidebar.
-
-Select Copy Channel ID.
-
-License
-
-📝 Open-source under the MIT License.
-
-Contributions
-
-💡 Feel free to submit pull requests or report issues!
+1. Fork the repository  
+2. Create a branch: git checkout -b feature/your-feature  
+3. Commit changes: git commit -m "Add your feature"  
+4. Push: git push origin feature/your-feature  
+5. Open a Pull Request  
+📜 License: MIT License 
