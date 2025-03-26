@@ -84,10 +84,7 @@ class MainWindow(QWidget):
             QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No
         )
         if confirm == QMessageBox.StandardButton.Yes:
-            self.hide()
-            login_window = LoginWindow()
-            if login_window.exec() == QDialog.DialogCode.Accepted:
-                MainWindow(login_window.get_token()).show()
+            self.close()
 
     def show_selector(self):
         selector = ChannelSelector()
